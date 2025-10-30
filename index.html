@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Payment Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2 style="text-align: center;">Payment Form</h2>
+<form id="paymentForm">
+    <h3>User Information</h3>
+
+    <label>Name:
+    <input type="text" id="name" placeholder="Enter your name">
+    <span id="nameError" class="error-message"></span>
+    </label>
+
+    <label>Email:
+    <input type="email" id="email" placeholder="Enter your email">
+    <span id="emailError" class="error-message"></span>
+    </label>
+
+    <label>Pincode:
+    <input type="text" id="pincode" placeholder="Enter your pincode">
+    <span id="pincodeError" class="error-message"></span>
+    </label>
+
+    <h3>Payment Information</h3>
+
+    <label>Card Number:
+    <input type="text" id="cardNumber" placeholder="Enter 16-digit card number">
+    <span id="cardNumberError" class="error-message"></span>
+    </label>
+
+    <label>Expiration Date:
+    <input type="date" id="expiry">
+    <span id="expiryError" class="error-message"></span>
+    </label>
+
+    <label>CVV:
+    <input type="password" id="cvv" placeholder="Enter CVV">
+    <span id="cvvError" class="error-message"></span>
+    </label>
+
+    <button type="submit" id="submitBtn">Pay Now</button>
+</form>
+
+<script src="script.js" defer></script>
+</body>
+</html>
+
+
+HTML
